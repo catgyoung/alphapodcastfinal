@@ -25,7 +25,7 @@ export default function Home() {
         <p className="text-lg mb-6">bold voices. brilliant minds. breaking barriers.</p>
         <Link href="/about">
           <button className="bg-white text-pink-600 font-semibold py-2 px-6 rounded hover:bg-pink-100 transition">
-            about alpha
+            ABOUT ALPHA
           </button>
         </Link>
       </section>

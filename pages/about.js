@@ -62,7 +62,7 @@ export default function About() {
             </h3>
             <div className="w-full lg:w-3/4 text-left space-y-6">
               <p>
-                I’ve worked across research, policy, and global health, from the lab to the White House, and I’ve carried both ambition and heartbreak along the way.
+                I’ve worked across research, policy, advocacy, and global health, from the lab to the White House, and I’ve carried both ambition and heartbreak along the way.
               </p>
               <p>
                 In every space I’ve been, I’ve met women who are pushing science forward and leading with clarity. Women who are transforming their fields while holding far more than what’s written in their titles.
