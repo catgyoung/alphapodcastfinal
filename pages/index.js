@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Head from 'next/head';
 import Link from 'next/link';
 import Footer from '../components/Footer';
@@ -25,7 +26,7 @@ export default function Home() {
         <p className="text-lg mb-6">bold voices. brilliant minds. breaking barriers.</p>
         <Link href="/about">
           <button className="bg-white text-pink-600 font-semibold py-2 px-6 rounded hover:bg-pink-100 transition">
-            ABOUT ALPHA
+            about alpha
           </button>
         </Link>
       </section>
@@ -63,6 +64,8 @@ export default function Home() {
     </>
   );
 }
+<Footer />
+
 
 
 
