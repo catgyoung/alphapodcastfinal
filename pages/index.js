@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -24,19 +25,19 @@ export default function Home() {
         <p className="text-lg mb-6">bold voices. brilliant minds. breaking barriers.</p>
         <Link href="/about">
           <button className="bg-white text-pink-600 font-semibold py-2 px-6 rounded hover:bg-pink-100 transition">
-            ABOUT ALPHA
+            about alpha
           </button>
         </Link>
       </section>
 
       <section className="text-center py-16 bg-white">
         <h2 className="text-xl font-semibold mb-2">latest episode</h2>
-        <p className="text-gray-500">coming soon </p>
+        <p className="text-gray-500">coming soon</p>
       </section>
 
       <section className="bg-gray-100 py-16 px-4 rounded-md shadow-md text-center">
-        <h2 className="text-xl font-semibold mb-2">be the first to know</h2>
-        <p className="text-gray-600 mb-8">alpha launches fall 2025 — sign up below for updates:</p>
+        <h2 className="text-xl font-semibold mb-2 lowercase">be the first to know</h2>
+        <p className="text-gray-600 mb-6">alpha launches fall 2025 — sign up below for updates:</p>
         <form
           action="https://formspree.io/f/xgvzkvgy"
           method="POST"
@@ -45,9 +46,9 @@ export default function Home() {
           <input
             type="email"
             name="email"
-            placeholder="Your email"
-            className="px-4 py-2 border border-gray-300 rounded w-full"
+            placeholder="Enter your email"
             required
+            className="px-4 py-2 border border-gray-300 rounded w-full"
           />
           <button
             type="submit"
@@ -57,7 +58,10 @@ export default function Home() {
           </button>
         </form>
       </section>
+
+      <Footer />
     </>
   );
 }
+
 
